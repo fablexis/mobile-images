@@ -1,0 +1,6 @@
+# Python >= 3.12 (required by onnx2tf 2.x)
+# onnx2tf[tensorflow] pulls tensorflow 2.21, tf-keras, onnx, onnxruntime, onnxsim, ai-edge-litert
+onnx2tf[tensorflow]==2.6.9
+# The GantMan .h5 references hub.KerasLayer
+tensorflow_hub==0.16.1
+pillow

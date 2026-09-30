@@ -36,6 +36,11 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+# model conversion
+scripts/.work/
+.venv-convert/
+__pycache__/
+
 # generated native folders
 /ios
 /android
